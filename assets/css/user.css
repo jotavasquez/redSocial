@@ -1,0 +1,229 @@
+/*USER.HTML*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.p-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/*barra de navegación */
+nav{
+    background-color: #FFF;
+    height: 70px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.menu-top{
+    display: inline-block;
+}
+
+#first-aid{
+    width: 100%;
+    height: auto;
+}
+
+.sos{
+    background-color: #BB0E12;
+    width: 100%;
+    height: 500px;
+    color: #FFF;
+}
+
+#publica{
+    padding: 12px;
+}
+
+
+/*avatar style*/
+
+.background {
+    background-image: url(../img/backdogs.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: #000000b9;
+    margin: 0;
+    padding: 10% 0 5%;
+}
+
+.avatar {
+    color: #ffffff;
+}
+
+.avatar img {
+    margin: 0 auto;
+    display: block;
+}
+
+.about {
+    margin: 5% 5% 0;
+    font-size: 0.8em;
+    display: block;
+}
+
+.numbers hr {
+    color: #fffd86;
+    width: 70%;
+}
+
+.numbers li {
+    color: #ffffff;
+    margin: 2% 5%;
+}
+
+.numbers h3 {
+    font-weight: 600;
+}
+
+.numbers p {
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.avatar p {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.followbtn {
+    background-color: rgb(255, 150, 65);
+    margin: 5% auto;
+    padding: 1em;
+    width: 100%;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.followbtn2 {
+    background-color: rgb(255, 150, 65);
+    padding: 1em;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 600;
+    width: 30%;
+    display: none;
+}
+
+.inputCo {
+    margin: 1em 0 3em;
+}
+
+
+/*comments style*/
+
+.avatarPost {
+    width: 3em;
+}
+
+.comment {
+    margin-bottom: 2em;
+    display: block;
+}
+
+.block {
+    display: block;
+    width: 5%;
+    height: 1em;
+}
+
+.iconList {
+    display: block;
+    width: 100%;
+}
+
+@media (max-width: 499px) {
+    .avaimg {
+        width: 30%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .avaimg {
+        width: 20%;
+    }
+    .about {
+        margin: 2% 5% 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .background {
+        padding: 5% 0 2%;
+    }
+    .avaimg {
+        width: 15%;
+    }
+    .followbtn {
+        display: none;
+    }
+    .followbtn2 {
+        width: 20%;
+        display: inline-block;
+    }
+    .inputCo {
+        margin: 1em 0 3em;
+    }
+    .about {
+        margin: 2% 5% 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .background {
+        padding: 2% 0 1%;
+    }
+    .avaimg {
+        width: 10%;
+    }
+    .followbtn {
+        display: none;
+    }
+    .followbtn2 {
+        width: 20%;
+        display: inline-block;
+    }
+    .inputCo {
+        margin: 1em 0 3em;
+    }
+    .about {
+        margin: 2% 5% 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .background {
+        padding: 1% 0 0.5em;
+    }
+    .avaimg {
+        width: 10%;
+    }
+    .followbtn {
+        display: none;
+    }
+    .followbtn2 {
+        width: 10%;
+        display: inline-block;
+    }
+    .inputCo {
+        margin: 1em 0 3em;
+    }
+    .about {
+        margin: 1% 5% 0;
+    }
+}
